@@ -17,3 +17,6 @@ sqlite3 /var/tmp/keyword-wrangler.test.sqlite
 
 #delete the sqlite db file#
 rm /var/tmp/keyword-wrangler.test.sqlite
+
+# to run the back end #
+node src/backend/index.js
